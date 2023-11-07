@@ -20,14 +20,22 @@ Assessing training program effectiveness is vital in the dynamic business landsc
 ![image](https://github.com/kaushiknd/Employee-Training-Effectiveness/assets/115521614/2fa2c1e5-2135-45a5-99d5-032c7e4a0504)
 
 4.	All these columns has to be changed. Hence, data cleaning process was carried out using below queries,
-I.	Gender column was Replaced ‘Male’ to ‘M’ and ‘Female’ to ‘F’.
-II.	Position column was replaced ‘DataScientist’ to ‘Data Scientist’ and ‘Marketinganalyst’ to ‘Marketing Analyst’.
-III.	Age Group Column was created by filtering Age <= 30 and Age>30.
-IV.	SalaryBucket column was created by filtering the salary column.
-V.	LastPromotionDate Column was unable to modify hence followed different approach.
-a.	First datatype of the column was changed from text to varchar(50)
-b.	Then the data inside the column was converted as below.
-c.	Then the data type of the column was changed from varchar to date.
+
+   I.	Gender column was Replaced ‘Male’ to ‘M’ and ‘Female’ to ‘F’.
+
+   II.	Position column was replaced ‘DataScientist’ to ‘Data Scientist’ and ‘Marketinganalyst’ to ‘Marketing Analyst’.
+
+   III.	Age Group Column was created by filtering Age <= 30 and Age>30.
+
+   IV.	SalaryBucket column was created by filtering the salary column.
+
+   V.	LastPromotionDate Column was unable to modify hence followed different approach.
+
+      a.	First datatype of the column was changed from text to varchar(50)
+   
+      b.	Then the data inside the column was converted as below.
+   
+      c.	Then the data type of the column was changed from varchar to date.
 
 Now the data is cleaned and feasible for analysing the data.
 
